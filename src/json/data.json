@@ -1,0 +1,57 @@
+{
+  "user" : {
+      "name" : "Walther Ayala",
+      "password" : "user1234",
+      "cellphone" : "987654321",
+      "since" : "15 de junio 2017",
+      "e_mails": [
+        {
+          "e_mail" : "user@laborum.pe",
+          "main": true,
+          "verified": true,
+          "verification_code": "user123"
+        },
+        {
+          "e_mail" : "usuario@gmail.com",
+          "main": false,
+          "verified": true
+        },
+        {
+          "e_mail" : "usuario@gmail.com",
+          "main": false,
+          "verified": false
+        }
+      ],
+      "cellphones":[
+        {
+          "country" : "PE +51 ",
+          "number" : "977 248 247",
+          "main" : true,
+          "verified" : true
+        },
+        {
+          "country" : "PE +51 ",
+          "number" : "988 248 247",
+          "main" : false,
+          "verified" : true
+        }
+      ],
+      "social_media" : [
+        {
+          "name" : "Facebook",
+          "username": "Walther",
+          "icon" : "fab fa-facebook-f"
+        },
+        {
+          "name" : "Linkedin",
+          "username" : "@walther",
+          "icon" : "fab fa-linkedin-in"
+        },
+        {
+          "name" : "google",
+          "username" : "whalter@gmail.com",
+          "icon" : "fab fa-google-plus-g"
+        }
+      ]
+    }
+}

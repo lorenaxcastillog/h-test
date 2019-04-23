@@ -1,0 +1,143 @@
+/* header styling*/
+.Header{
+  background-color: white;
+  box-shadow: 0px 6px 2px -3px #bdc3c7;
+}
+.header_dropdown{
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 12px;
+  color:#576574;
+}
+ .logo_header{
+   margin-top: 0px;
+   margin-left: -4%;
+   padding-left: 10%;
+ }
+.dropdown_header{
+  padding-right: 10%;
+}
+.session_options_button{
+   margin-top: 5px;
+   border-left: 1px #b2bec3 solid; border-right: white; border-bottom: white; border-top: white;
+   background-color: white;
+   width: 200px;
+}
+/*body */
+body{
+  background-color: #fafafa;
+  font-family: "Open Sans";
+}
+h4{
+  font-size: 20px;
+}
+
+/* body - profile info*/
+.Body{
+  margin-top: 15px;
+  background-color: white;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.vertical_separator{
+  border-left:1px solid #b2bec3; height:inherit;
+}
+.profile_image{
+  width: 15%;
+  height: 15%;
+}
+.Info{
+  color: #576574;
+  margin-top: -20px;
+}
+.pen{
+  font-size: 12px;
+}
+.welcome_text{
+  font-size: 14px;
+}
+/* Tab items*/
+.Tabs_menu_item a:hover{
+  color:#e67e22;
+}
+.Tabs-nav-tabs{
+  margin-left: 2%;
+}
+/*accountContent*/
+.AccountContent{
+  font-size: 14px;
+}
+.toggle_arrow{
+  background-color: #b2bec3;
+  color:white;
+  font-size: 15px;
+  width: 25px;
+  height: 25px;
+  padding-top: 5px;
+  border-radius: 50%;
+}
+.input_e_mail{
+  width: 75%;
+}
+.accountTabs{
+  font-family: "Open Sans";
+  font-size: 15px;
+  color:#576574;
+}
+.accountTabs a:hover{
+  color:orange;
+}
+.accountTabs a{
+  color:#95a5a6;
+}
+/* Verification component*/
+.SendVerification{
+  background-color: #fbfbfb;
+}
+
+.shieldImage{
+  width: 40%;
+  margin-top: 30%;
+  margin-left: 15%;
+}
+.subtitle_cellphone, .subtitle_session, .subtitle_password, .subtitle_connections{
+  margin-top: -40px;
+  margin-left: -10px;
+}
+/* social media icons*/
+.social_media{
+  margin-left: 5px;
+}
+.fab:hover {
+    opacity: 0.7;
+}
+.fa-facebook-f {
+  background-color: #3B5998;
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  color: white;
+  border-radius: 	50%;
+  padding-right: 2px;
+  padding-top: 5px;
+}
+.fa-linkedin-in {
+  background-color: #007bb5;
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  color: white;
+  border-radius: 	50%;
+  padding-right: 2px;
+  padding-top: 5px;
+}
+
+.fa-google-plus-g {
+  background-color: #dd4b39;
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  color: white;
+  border-radius: 	50%;
+  padding-right: 2px;
+  padding-top: 5px;
+}
